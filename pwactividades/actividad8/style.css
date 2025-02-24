@@ -1,0 +1,83 @@
+.house{
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+}
+.wall{
+    background-color:#fdf3e3;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    top:200%;
+    }
+.roof{
+    width: 0px;
+    height: 0px;
+    border-radius: 0px;
+    border-right: 200px solid transparent;
+    border-bottom: 200px solid #de7342;
+    border-left: 200px solid transparent;
+    position: relative;
+    top:200%;
+} 
+.chimney{
+    background-color: #a15d3b;
+    width: 66px;
+    height: 88px;
+    position: absolute;
+    transform: translate(-246.5%,110%);
+    /* transform translate para mover el objeto absoluto dentro de un relativo (no funcionaba solo con top/left/etc) */
+}
+.window01{
+    background-color: #aeced4;
+    width:66px;
+    height:66px;
+    border-radius:20%;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+
+}
+.window02{
+    background-color:#aeced4;
+    width:66px;
+    height:66px;
+    border-radius:20%;
+    position: absolute;
+    top: 10%;
+    right: 15%;
+}
+.door{
+    background-color:#c77c5e;
+    width: 90px;
+    height: 140px;
+    border-radius:50px 50px 0px 0px;
+    border: solid #a15d3b;
+    border-width: 5px;
+    position: absolute;
+    bottom:0%;
+    right:60%;
+    left:38%;
+    z-index: 1;
+    /* z-index organiza el orden de las capas!! no olvidar */  
+}
+.grass{
+    background-color:#757f42;
+    height: 9px;
+    width: 500px;
+    border-radius:5px;
+    position: absolute;
+    bottom:-1.5%;
+    right:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+}
+.decor{
+    background-color: #e4dacb;
+    width: 400px;
+    height: 65px;
+    position: absolute;
+    bottom: 0%;
+    z-index:0;
+}
