@@ -1,0 +1,149 @@
+
+*{
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+body{
+margin: 0px 130px 0px 130px ;
+}
+header{
+display:flex;
+justify-content:space-between;
+margin: 0px;
+padding: 5px 10px 5px 10px;
+}
+.search{
+display: flex;
+align-items:flex-start;  
+margin-right: 0; 
+} 
+label{
+margin-right:4px;
+font-size:14px;
+}
+input{
+height: 12px;
+}
+.flex{
+display: flex;
+flex-direction:row;
+justify-content:space-between;
+}
+.nav{
+display: flex;
+flex-direction: row;
+justify-content:space-evenly;
+flex-wrap:wrap;
+align-items:center;
+background-color:#db5b69;
+padding: 8px 130px 8px 130px;
+color: aliceblue;
+font-size:medium;
+font-weight:200px;
+}
+.leftside{
+width:18%;
+float: left;
+margin: 8px 0px 8px 0px;
+}
+.news{
+background-color:#F1F1F1;
+padding: 5px 5px 10px 20px;
+}
+.newsheader{
+font-weight: bold;
+padding-bottom: 5px;
+}
+.subnews{
+font-weight: bold;
+color:#275052;
+padding-top: 5px;
+}
+.datenews{
+font-size: smaller;
+color:#828282;
+}
+hr{
+width:95%;
+}
+.publicity{
+padding: 5px 5px 10px 20px;
+background-color:#FCEFD7;
+border:dashed #FBC265;
+margin: 8px 0px 8px 0px;
+}
+.pheader{
+font-weight: bold;
+color:#FBA600;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+.lorem{
+font-weight:300;
+margin-top: 10px;
+padding-right:10px;
+}
+.viewmore{
+font-weight:500;
+color:#C98B27;
+padding-top: 8px;
+}
+.core{
+width:60%;
+display: flex;
+flex-direction: row;
+margin: 8px 0px 8px 0px;
+}
+.mainheader{
+font-size:x-large;
+font-weight: bold;
+color:#FBA600;
+padding-top: 8px;
+padding-bottom: 10px;
+}
+img{
+width:28%;
+margin-right:15px;
+margin-bottom:10px;
+}
+.pg{
+display: flex;
+flex-direction: row;
+justify-content:space-between;
+}
+.rightside{
+width: 18%;
+float: right;
+border: solid #1BC1D0;
+margin-top: 8px;
+padding-left:8px;
+}
+.banner{
+background-color:#0DC0CF;
+color:#F5FCFC;
+font-weight: bold;
+margin: 8px 8px 8px 0px;
+padding: 5px 8px 5px 8px;
+}
+footer{
+display: flex;
+flex-direction:row;
+justify-content: space-between;
+align-items: center;
+background-color:#F9F9F9;
+margin-top: 10px;
+padding: 20px;
+}
+.ftr{
+width:18%;   
+}
+.crdts{
+font-weight: bold;
+margin-top:10px;
+padding-right: 8px;
+}
+.line{
+background-color:#D1D1D1;
+padding: 5px 8px;
+margin: 5px 0px;
+}
