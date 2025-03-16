@@ -1,0 +1,77 @@
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items:center;
+    background-color:gray;
+    font-size:medium;
+    margin: 5px;
+}
+.container{
+    width: 100%;
+    height:720px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: 
+    "rd rd rd rd rd pur pur pur pur pur pur pur pur pur grn"
+    "rd rd rd rd rd pur pur pur pur pur pur pur pur pur grn"
+    "rd rd rd rd rd pur pur pur pur pur pur pur pur pur grn"
+    "rd rd rd rd rd pur pur pur pur pur pur pur pur pur grn"
+    "rd rd rd rd rd pur pur pur pur pur pur pur pur pur grn"
+    "rd rd rd rd rd pur pur pur pur pur pur pur pur pur grn"
+    "rd rd rd rd rd pur pur pur pur pur pur pur pur pur grn"
+    "rd rd rd rd rd grn2 grn2 blu blu blu blu blu blu blu grn"
+    "rd rd rd rd rd grn2 grn2 blu blu blu blu blu blu blu grn"
+    "rd rd rd rd rd grn2 grn2 blu blu blu blu blu blu blu grn"
+    "rd rd rd rd rd grn2 grn2 lav lav lav lav lav lav lav grn"
+    "rd rd rd rd rd grn2 grn2 lav lav lav lav lav lav lav grn"
+    "rd rd rd rd rd grn2 grn2 lav lav lav lav lav lav lav grn"
+    "rd rd rd rd rd grn2 grn2 lav lav lav lav lav lav lav grn"
+    "rd rd rd rd rd orng orng orng orng orng orng orng orng orng grn"
+    "rd rd rd rd rd orng orng orng orng orng orng orng orng orng grn"
+    "rd rd rd rd rd orng orng orng orng orng orng orng orng orng grn"
+    "rd rd rd rd rd orng orng orng orng orng orng orng orng orng grn"
+    "rd rd rd rd rd orng orng orng orng orng orng orng orng orng grn"
+    ;
+}
+.box{
+    color:#FFF;
+    text-align:center;
+    border: 7px solid;
+}
+.purple{
+    grid-area:header;
+    background-color: rgb(141, 67, 180);
+    grid-area: pur;
+    border-right: 2px;
+}
+.red{
+    background-color: rgb(232, 78, 52);
+    grid-area: rd;
+}
+.blue{
+    background-color: rgb(66, 166, 236);
+    grid-area: blu;
+
+}
+.green{
+    background-color: rgb(42, 166, 80);
+    grid-area: grn;
+    margin-left: 5px;
+}
+.green2{
+    background-color: rgb(42, 166, 80);
+    grid-area: grn2;
+}
+.lavender{
+    background-color: rgb(172, 133, 180);
+    grid-area: lav;
+}
+.orange{
+    background-color: rgb(248, 153, 41);
+    grid-area: orng;
+}
