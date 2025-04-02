@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ISSET/EMPTY</title>
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css"
+        >   
+    </head>
+    <body>
+        <div class="container box">
+            <form action="procesar.php" method="post">
+                <div class="is-size-3 has-text-centered has-text-weight-semibold has-text-light has-background-success">Formulario</div>
+                <div class="field">
+                    <label class="label">Nombre</label>
+                    <div class="control">
+                    <input class="input" type="text" name="nombre" id="nombre" placeholder="Winnie Pooh" required>
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label">Edad</label>
+                    <div class="control">
+                    <input class="input" type="number" name="edad" id="edad" placeholder="100" required>
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label">Email</label>
+                    <input class="input" type="email" name="email" id="email" placeholder="winidpo@gmail.com" required>
+                </div>
+                <div class="field is-grouped is-flex is-justify-content-center">
+                    <div class="control">
+                        <button class="button is-link" type="submit">Enviar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
